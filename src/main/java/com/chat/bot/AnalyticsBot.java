@@ -32,7 +32,7 @@ public class AnalyticsBot implements Runnable {
         System.out.println("Top User: " + statsCalculator.getTopActiveUser());
         System.out.println("------------------------");
     }
-
+    // Дивный комментарий
     @Override
     public void run() {
         System.out.println("Analytics Bot started...");
