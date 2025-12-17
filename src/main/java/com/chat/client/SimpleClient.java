@@ -29,8 +29,8 @@ public class SimpleClient {
                     System.out.println("Соединение разорвано.");
                 }
             }).start();
-
             // Поток для отправки сообщений
+
             PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
 
             System.out.println("Можете писать сообщения. Для статистики введите /stats");
