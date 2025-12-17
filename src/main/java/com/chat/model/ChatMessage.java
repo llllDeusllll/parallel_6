@@ -2,6 +2,7 @@ package com.chat.model;
 
 import java.time.Instant;
 
+
 public class ChatMessage {
     private MessageType type;
     private String user;
@@ -20,7 +21,7 @@ public class ChatMessage {
     public String getUser() { return user; }
     public String getText() { return text; }
     public String getTimestamp() { return timestamp; }
-
+    // правки в chatMessage
     public void setType(MessageType type) { this.type = type; }
     public void setText(String text) { this.text = text; }
 }

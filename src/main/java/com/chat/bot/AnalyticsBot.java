@@ -7,7 +7,7 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
-
+// исправленный analytics
 public class AnalyticsBot implements Runnable {
     private final BlockingQueue<ChatMessage> analyticsQueue = new LinkedBlockingQueue<>();
     private final StatsCalculator statsCalculator = new StatsCalculator();
